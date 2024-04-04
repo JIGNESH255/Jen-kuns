@@ -7,6 +7,8 @@ namespace JenkinsAPI.Controllers
 	public class WeatherForecastController : ControllerBase
 	{
 		//made some chnages
+		//made another chnages
+		//made another chnages
 		private static readonly string[] Summaries = new[]
 		{
 		"Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
