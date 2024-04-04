@@ -34,11 +34,8 @@ namespace JenkinsAPI.Controllers
 				Summary = Summaries[Random.Shared.Next(Summaries.Length)]
 			})
 			.ToArray();
-		}		
-
-		public string Getstring()
-		{
-			return "abc";
 		}
+
+		
 	}
 }
