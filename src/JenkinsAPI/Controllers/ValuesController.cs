@@ -7,13 +7,13 @@ namespace JenkinsAPI.Controllers
 	[ApiController]
 	public class ValuesController : ControllerBase
 	{
-		[HttpGet(Name = "getstring")]
+		[HttpGet("getstring")]
 		public string Getstring()
 		{
 			return "abc";
 		}
 
-		[HttpGet(Name ="jjj")]
+		[HttpGet("jjj")]
 		public string Getstring(string name)
 		{
 			return "abc";
