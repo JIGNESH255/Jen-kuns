@@ -35,5 +35,10 @@ namespace JenkinsAPI.Controllers
 			})
 			.ToArray();
 		}		
+
+		public string Getstring()
+		{
+			return "abc";
+		}
 	}
 }
