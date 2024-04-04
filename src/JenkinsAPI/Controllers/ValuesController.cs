@@ -12,5 +12,11 @@ namespace JenkinsAPI.Controllers
 		{
 			return "abc";
 		}
+
+		[HttpGet(Name ="jjj")]
+		public string Getstring(string name)
+		{
+			return "abc";
+		}
 	}
 }
