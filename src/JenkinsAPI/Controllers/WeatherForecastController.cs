@@ -22,6 +22,8 @@ namespace JenkinsAPI.Controllers
 			_logger = logger;
 		}
 
+		//hello from here
+
 		[HttpGet(Name = "GetWeatherForecast")]
 		public IEnumerable<WeatherForecast> Get()
 		{
